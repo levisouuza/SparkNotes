@@ -127,6 +127,6 @@ sem a necessidade de acessar e combinar dados de outras partições. Exemplo: Fu
 
 ## Exemplos Aplicação
 
-1. ![Instalação SPARK](https://github.com/levisouuza/SparkNotes/blob/main/Spark%20Install%20EC2.md)
-2. ![Criar Spark Session e carrega arquivo](https://github.com/levisouuza/SparkNotes/blob/main/SparkLoadFile.py)
-3. ![Regressão Linear utilizando ML Lib](https://github.com/levisouuza/SparkNotes/blob/main/LinerRegressionCrewShip.ipynb)
+1. [Instalação SPARK](https://github.com/levisouuza/SparkNotes/blob/main/Spark%20Install%20EC2.md)
+2. [Criar Spark Session e carrega arquivo](https://github.com/levisouuza/SparkNotes/blob/main/SparkLoadFile.py)
+3. [Regressão Linear utilizando ML Lib](https://github.com/levisouuza/SparkNotes/blob/main/LinerRegressionCrewShip.ipynb)
