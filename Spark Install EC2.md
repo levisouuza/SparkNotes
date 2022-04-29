@@ -18,6 +18,6 @@
 
 **Para testar, executar:**
 
-** Node master: ** start-master.sh 
+**Node master:** start-master.sh 
 
-** Node Slave:** start-slave.sh host_spark_aplication 
+**Node Slave:** start-slave.sh host_spark_aplication 
