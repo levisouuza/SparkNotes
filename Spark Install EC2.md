@@ -2,7 +2,7 @@
 
 ### step by step
 
-1.sudo apt install -y default-jre
+1. sudo apt install -y default-jre
 
 2. wget https://archive.apache.org/dist/spark/spark-3.0.0/spark-3.0.0-bin-hadoop2.7.tgz
 
