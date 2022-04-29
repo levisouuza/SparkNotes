@@ -1,6 +1,6 @@
 ## Spark Install EC2
 
-### step by step
+### Step by Step
 
 1. sudo apt install -y default-jre
 
