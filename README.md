@@ -125,3 +125,8 @@ sem a necessidade de acessar e combinar dados de outras partições. Exemplo: Fu
 
 - **WIDE TRANSFORMATION:** Transformações que os dados de entrada da partição irão contribuir para a saída de outras partições. Normalmente você verá essa transformação sendo referenciada como shuffle. Operações como groupBy() e OrderBy() são transformações desse tipo, uma vez que as partições lidas, combinadas e escritas em disco. 
 
+## Exemplos Aplicação
+
+1. ![Instalação SPARK](https://github.com/levisouuza/SparkNotes/blob/main/Spark%20Install%20EC2.md)
+2. ![Criar Spark Session e carrega arquivo](https://github.com/levisouuza/SparkNotes/blob/main/SparkLoadFile.py)
+3. ![Regressão Linear utilizando ML Lib](https://github.com/levisouuza/SparkNotes/blob/main/LinerRegressionCrewShip.ipynb)
