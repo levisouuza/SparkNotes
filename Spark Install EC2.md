@@ -11,7 +11,9 @@
 4. /opt/spark-3.0.0-bin-hadoop2.7
 
 5. vim /etc/profile
+
    export SPARK_HOME=/opt/spark-3.0.0-bin-hadoop2.7
+   
    export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin
 
 **Para testar, executar:**
