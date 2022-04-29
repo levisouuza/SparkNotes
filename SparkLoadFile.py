@@ -2,11 +2,11 @@
 
 from pyspark.sql import SparkSession
 
-def main():
-  spark = SparkSession.builder.appName('LoadFile').getOrCreate()
+def CreateDataframe(appName, location, file_type):
+  spark = SparkSession.builder.appName(appName).getOrCreate()
 
-  file_location = "/FileStore/tables/cruise_ship_info.csv"
-  file_type = "csv"
+  file_location = location
+  file_type = file_type
 
   # CSV options
   infer_schema = "True"
@@ -22,7 +22,17 @@ def main():
   
   return df
 
-  # Show dataframe
+def CreateTableParquet(dataframe, table_name_tmp):
   
-if __name__ == 'main':
-  main()
+  try:
+    # Create a view or table
+    temp_table_name = table_name_tmp
+
+    dataframe.createOrReplaceTempView(table_name_tmp)
+
+    permanent_table_name = table_name_tmp
+
+    df.write.format("parquet").saveAsTable(permanent_table_name)
+  except:
+    print('Create table is failed!')
+  
